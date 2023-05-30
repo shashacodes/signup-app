@@ -17,9 +17,9 @@ export default function page() {
           <h1 className="text-4xl text-left font-bold">Speak your</h1>
           <p className="text-lg pb-1 font-normal">Login ID & Password.</p>
         </div>
-        <div>
+        <picture>
           <img src="/icons8-audio-wave.gif" alt="" width="250px" height={200} />
-        </div>
+        </picture>
         <div className="flex flex-col justify-center gap-6 mx-auto">
           <span className="flex flex-row font-extrabold border-b-[1px] border-slate-200 justify-between items-center pb-2 space-x-10 text-xl">
             <p className="">ibsharon19@gmail.com</p>
@@ -46,7 +46,7 @@ export default function page() {
           <span className="flex flex-row justify-between items-center">
             <h1 className="text-4xl text-left font-extrabold text-white">
               Login
-            </h1>{" "}
+            </h1>
             <Image
               className="mx-auto my-5"
               src={pic}
@@ -66,10 +66,10 @@ export default function page() {
               <input
                 placeholder="Email ID"
                 className=" text-base bg-transparent placeholder:text-slate-200 text-white"
-              />{" "}
+              />
               <span>
                 <GoMail size={30} style={{ color: "white" }} />
-              </span>{" "}
+              </span>
             </span>
             <span className="flex flex-row border-b-[1px] border-slate-200 justify-between items-center   text-xl">
               <input
@@ -78,7 +78,7 @@ export default function page() {
               />
               <span>
                 <TbPassword size={30} style={{ color: "white" }} />
-              </span>{" "}
+              </span>
             </span>
           </div>
 
@@ -103,18 +103,16 @@ export default function page() {
             <p className="pr-10 mx-auto"> Continue with facebook </p>
           </span>
           <span className="flex flex-row  font-extrabold border bg-slate-300 text-black ">
-            <FcGoogle size={20} style={{ color: "" }} />
+            <FcGoogle size={20} />
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
           <span>
             <p>
-              {" "}
               <Link
                 href="/sign-up"
                 className="text-black text-xl font-semibold"
               >
-                {" "}
-                Don't have an account? Sign up{" "}
+                Don't have an account? Sign up
               </Link>
             </p>
           </span>

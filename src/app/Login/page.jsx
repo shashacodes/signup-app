@@ -18,13 +18,13 @@ export default function page() {
           <p className="text-lg pb-1 font-normal">Login ID & Password.</p>
         </div>
 
-        <div>
+        <picture>
           <img src="/audio.gif" alt="" width="250px" height={200} />
-        </div>
+        </picture>
 
         <div className="flex flex-col gap-5">
           <span className="flex flex-row border-b-[1px] border-slate-200 justify-between items-center pb-2 space-x-10 text-xl font-extrabold">
-            <p className="">ibsharon19@gmail.com</p>
+            <p>ibsharon19@gmail.com</p>
             <span>
               <HiCheckCircle size={20} style={{ color: "green" }} />
             </span>
@@ -49,7 +49,7 @@ export default function page() {
             <span className="flex flex-row justify-between mx-auto gap-3 items-center">
               <h1 className="text-4xl text-left font-extrabold text-white">
                 Login
-              </h1>{" "}
+              </h1>
               <Image
                 className="mx-auto my-5"
                 src={pic}
@@ -69,10 +69,10 @@ export default function page() {
                 <input
                   placeholder="Email ID"
                   className=" text-base bg-transparent placeholder:text-slate-200 text-white"
-                />{" "}
+                />
                 <span>
                   <GoMail size={30} style={{ color: "black" }} />
-                </span>{" "}
+                </span>
               </span>
               <span className="flex flex-row border-b-[1px] border-slate-200 justify-between items-center   text-xl">
                 <input
@@ -81,7 +81,7 @@ export default function page() {
                 />
                 <span>
                   <TbPassword size={30} style={{ color: "black" }} />
-                </span>{" "}
+                </span>
               </span>
             </div>
 
@@ -111,13 +111,11 @@ export default function page() {
             </span>
             <span>
               <p>
-                {" "}
                 <Link
                   href="/sign-up"
                   className="text-black font-extrabold text-xl"
                 >
-                  {" "}
-                  Don't have an account? Sign up{" "}
+                  Don't have an account? Sign up
                 </Link>
               </p>
             </span>

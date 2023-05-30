@@ -15,9 +15,9 @@ export default function ForgotPassword() {
           <p className="text-lg pb-1 font-normal">Login ID & Password.</p>
         </div>
 
-        <div>
+        <picture>
           <img src="/audio.gif" alt="audio" width="250px " height={200} />
-        </div>
+        </picture>
 
         <div className="flex flex-col gap-5">
           <span className="flex flex-row border-b-[1px] font-extrabold border-slate-200 justify-between items-center p-5 pb-2 space-x-10 text-xl">
@@ -68,8 +68,7 @@ export default function ForgotPassword() {
           </div>
           <Link href="/Login">
             <p className="outline-double outline-inset-2 hover:outline-orange-200 text-xl font-bold justify-center">
-              {" "}
-              back to login{" "}
+              back to login
             </p>
           </Link>
         </div>

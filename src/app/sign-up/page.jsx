@@ -20,9 +20,9 @@ export default function page() {
           <p className="text-lg pb-1 font-normal">Login ID & Password.</p>
         </div>
 
-        <div>
+        <picture>
           <img src="/audio.gif" alt="" width="250px" height={200} />
-        </div>
+        </picture>
 
         <div className="flex flex-col gap-5 text-white">
           <span className="flex flex-row border-b-[1px] font-extrabold border-slate-200 justify-between items-center pb-2 space-x-10 text-xl">
@@ -61,8 +61,8 @@ export default function page() {
               <input
                 placeholder="FullName"
                 className=" pb-2 text-base bg-transparent placeholder:text-slate-200 text-white"
-              />{" "}
-              <p className="">
+              />
+              <p>
                 <BsFillPersonPlusFill size={30} style={{ color: "black" }} />
               </p>
             </span>
@@ -70,7 +70,7 @@ export default function page() {
               <input
                 placeholder="Email ID"
                 className=" text-base bg-transparent placeholder:text-slate-200 text-white"
-              />{" "}
+              />
               <p>
                 <GoMail size={30} style={{ color: "black" }} />
               </p>
@@ -79,7 +79,7 @@ export default function page() {
               <input
                 placeholder="Password (6 or more chars)"
                 className=" pb-2 text-base bg-transparent placeholder:text-slate-200 text-white"
-              />{" "}
+              />
               <p>
                 <TbPassword size={30} style={{ color: "black" }} />
               </p>
@@ -103,7 +103,7 @@ export default function page() {
           </span>
           <span>
             <p className="text-black text-xl">
-              Already have an account?{" "}
+              Already have an account?
               <Link href="/Login" className="text-red-600 font-extrabold">
                 Login
               </Link>
