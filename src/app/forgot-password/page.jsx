@@ -40,7 +40,7 @@ export default function ForgotPassword() {
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
-      <div className="basis-[40%] flex justify-center gap-8 bg-gray-500 p-10 h-screen ">
+      <div className="basis-[40%] flex justify-center gap-8 bg-transparent p-10 h-screen ">
         <div className="flex  border rounded-tr-xl border-gray-600 flex-col">
           <span className="flex flex-row mx-auto gap-3">
             <h1 className=" font-extrabold text-4xl">FORGOT PASSWORD</h1>

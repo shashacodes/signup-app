@@ -41,7 +41,7 @@ export default function page() {
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
-      <div className="flex flex-col justify-between gap-5 p-10 bg-amber-700 basis-[40%]">
+      <div className="flex flex-col justify-between gap-5 p-10 bg-transparent basis-[40%]">
         <div className="flex flex-col gap-2">
           <span className="flex flex-row justify-between items-center">
             <h1 className="text-4xl text-left font-extrabold text-white">

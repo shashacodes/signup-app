@@ -44,7 +44,7 @@ export default function page() {
       </aside>
 
       <div className="basis-[40%] flex justify-between text-xl gap-5 items-stretch h-screen">
-        <div className="flex w-full flex-col justify-between border rounded-tr-xl bg-transparent border-amber-800 gap-5 p-10  bg-amber-700">
+        <div className="flex w-full flex-col justify-between border rounded-tr-xl bg-transparent border-amber-800 gap-5 p-10  ">
           <div className="flex flex-col gap-2">
             <span className="flex flex-row justify-between mx-auto gap-3 items-center">
               <h1 className="text-4xl text-left font-extrabold text-white">
