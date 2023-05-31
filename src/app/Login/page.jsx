@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import pic from "../Images/favicon.ico";
+import pic from "../Images/fav1.png";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { HiCheckCircle } from "react-icons/hi";
 import { GoMail } from "react-icons/go";
@@ -54,7 +54,7 @@ export default function page() {
                 className="mx-auto my-5"
                 src={pic}
                 alt="a favicon"
-                width={50}
+                width={60}
                 height={80}
               />
             </span>
