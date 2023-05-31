@@ -105,7 +105,9 @@ export default function page() {
             <p className="text-black text-xl">
               Already have an account?
               <Link href="/Login" className="text-red-600 font-extrabold">
-                Login
+                <span className="border rounded-xl bg-white p-2 hover:bg-transparent">
+                  Login
+                </span>
               </Link>
             </p>
           </span>

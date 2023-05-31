@@ -115,7 +115,10 @@ export default function page() {
                   href="/sign-up"
                   className="text-black font-extrabold text-xl"
                 >
-                  Don't have an account? Sign up
+                  Don't have an account?
+                  <span className="border rounded-xl bg-white p-2 hover:bg-transparent">
+                    Sign up
+                  </span>
                 </Link>
               </p>
             </span>
