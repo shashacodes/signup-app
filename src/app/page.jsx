@@ -11,7 +11,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 export default function page() {
   return (
-    <div className="w-full  flex justify-between items-stretch h-screen">
+    <div className="w-full bg-[url('https://i.pinimg.com/474x/d9/af/45/d9af45d7a046edab3c23f81a9d0b3322.jpg')] flex justify-between items-stretch h-screen">
       <div className="flex flex-col justify-between gap-5 p-10">
         <div className="flex flex-col gap-2 mx-auto">
           <h1 className="text-4xl text-left font-bold">Speak your</h1>
