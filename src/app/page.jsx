@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { HiCheckCircle } from "react-icons/hi";
-import pic from "./Images/favicon.ico";
 import { GoMail } from "react-icons/go";
 import { TbPassword } from "react-icons/tb";
 import { RxReset } from "react-icons/rx";
@@ -47,13 +46,6 @@ export default function page() {
             <h1 className="text-4xl text-left font-extrabold text-white">
               Login
             </h1>
-            <Image
-              className="mx-auto my-5"
-              src={pic}
-              alt="a favicon"
-              width={50}
-              height={80}
-            />
           </span>
           <p className="text-lg pb-1 font-normal text-white">
             Hello! Let's get started
